@@ -45,7 +45,7 @@ class AgentWithDirectCodeDefinition():
 		return Task(
 			description = """
 			Review the context you got and expand each topic into a full section for a report
-    		Make sure the report is detailed and contains any and all relevant information.""",
+			Make sure the report is detailed and contains any and all relevant information.""",
 			expected_output = """
 			A fully fledged report with the main topics, each with a full section of information.
 			Formatted as markdown without '```' """,
