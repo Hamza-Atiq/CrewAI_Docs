@@ -1,0 +1,20 @@
+[project]
+name = "agent_with_direct_code_definition"
+version = "0.1.0"
+description = "agent_with_direct_code_definition using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.100.1,<1.0.0"
+]
+
+[project.scripts]
+run_crew = "agent_with_direct_code_definition.main:kickoff"
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
