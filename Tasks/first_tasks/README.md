@@ -1,10 +1,10 @@
-# AgentWithDirectCodeDefinition Crew
+# FirstTasks Crew
 
-Welcome to the AgentWithDirectCodeDefinition Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+Welcome to the FirstTasks Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
 
 ## Installation
 
-Ensure you have Python >=3.10 <3.13 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling, offering a seamless setup and execution experience.
+Ensure you have Python >=3.10 <3.12 installed on your system. This project uses [UV](https://docs.astral.sh/uv/) for dependency management and package handling, offering a seamless setup and execution experience.
 
 First, if you haven't already, install uv:
 
@@ -26,7 +26,9 @@ uv add crewai
 
 **Add your `OPENAI_API_KEY` or `GEMINI_API_KEY` or any other with `MODEL` into the `.env` file**
 
-- Modify `src/agents_with_yaml_configuration/crew.py` to add your own logic, tools, define your agents and tasks and specific args
+- Modify `src/agents_with_yaml_configuration/config/agents.yaml` to define your agents
+- Modify `src/agents_with_yaml_configuration/config/tasks.yaml` to define your tasks
+- Modify `src/agents_with_yaml_configuration/crew.py` to add your own logic, tools and specific args
 - Modify `src/agents_with_yaml_configuration/main.py` to add custom inputs for your agents and tasks
 
 ## Running the Project
