@@ -1,0 +1,19 @@
+[project]
+name = "tasks_with_direct_configuration"
+version = "0.1.0"
+description = "tasks_with_direct_configuration using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "crewai[tools]>=0.102.0,<1.0.0"
+]
+
+[project.scripts]
+run_crew = "tasks_with_direct_configuration.main:kickoff"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"

@@ -1,0 +1,8 @@
+blogger_task:
+  description: >
+    This task is responsible for creating a blog post which have atleast {word_count} words.
+  expected_output: >
+    A blog post that is engaging and informative. The blog post should be written
+    in a style that is easy to read and understand. It should be well-organized and under
+    the {word_count} words.
+  agents: blog_writer
